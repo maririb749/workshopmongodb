@@ -16,9 +16,9 @@ public class Author {
 		this.name = name;
 	}
 
-	public Author(User entty) {
-		this.id = entty.getId();
-		this.name = entty.getName();
+	public Author(User user) {
+		this.id = user.getId();
+		this.name = user.getName();
 	}
 
 	public String getId() {

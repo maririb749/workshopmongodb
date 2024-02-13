@@ -71,6 +71,10 @@ public class User {
 		User other = (User) obj;
 		return Objects.equals(id, other.id);
 	}
+
+	public List<Post> getPosts() {
+		return posts;
+	}
 	
 	
 
