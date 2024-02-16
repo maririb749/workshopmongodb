@@ -57,5 +57,11 @@ public class UserService {
 		return new UserDTO(entity);
 			
 	}
+	
+	public void delete (String id) {
+		getEntityById(id);
+		repository.deleteById(id);
+			
+	}
 
 }
