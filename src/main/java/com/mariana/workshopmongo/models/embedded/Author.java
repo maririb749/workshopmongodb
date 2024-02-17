@@ -17,9 +17,10 @@ public class Author {
 	}
 
 	public Author(User user) {
-		this.id = user.getId();
-		this.name = user.getName();
+	    this.id = user.getId().toString(); 
+	    this.name = user.getName();
 	}
+
 
 	public String getId() {
 		return id;

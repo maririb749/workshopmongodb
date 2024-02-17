@@ -5,13 +5,12 @@ import java.time.Instant;
 public class Comment {
 	
 	private String text;
-	private Instant moment;
-	
-	private Author author;
-	
-	private Comment() {
-		
-	}
+    private Instant moment;
+    private Author author;
+    
+    public Comment() {
+    	
+    }
 
 	public Comment(String text, Instant moment, Author author) {
 		this.text = text;
@@ -42,7 +41,6 @@ public class Comment {
 	public void setAuthor(Author author) {
 		this.author = author;
 	}
-	
-	
-
+	 
+    
 }
