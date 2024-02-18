@@ -18,7 +18,6 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import com.mariana.workshopmongo.models.DTO.PostDTO;
 import com.mariana.workshopmongo.models.DTO.UserDTO;
 import com.mariana.workshopmongo.service.UserService;
-import com.mariana.workshopmongo.service.exceptions.ResourceNotFoundException;
 
 @RestController
 @RequestMapping(value= "/users")
